@@ -1,0 +1,7 @@
+--require test/node-extensions.js
+--require test/babel-register.js
+--require test/dom.js
+--require chai
+--require sinon-chai
+--require test/assertions.js
+--reporter nyan
