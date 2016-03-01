@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+.cell {
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid black;
+  margin: -1px 0 0 -1px;
+  padding: 0 5px;
+}
+.label {
+  composes: cell;
+  width: 100px;
+}
+.value {
+  composes: cell;
+  width: 50px;
+  text-align: center;
+}
+.value:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #d6d6d6;
+}
+.value:active {
+  background-color: #e8e8e8;
+}
