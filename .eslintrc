@@ -6,6 +6,8 @@
   "parser": "babel-eslint",
   "rules": {
     "arrow-parens": [2, "as-needed"],
-    "curly": 0
+    "curly": 0,
+    "react/jsx-indent-props": 0,
+    "react/prop-types": [1, { ignore: ["css"] }]
   }
 }

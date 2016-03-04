@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+}
+.notBtn {
+  background: #fff;
+  border: 1px solid #000;
+}
+.notBtn:hover {
+  cursor: pointer;
+  background-color: #d6d6d6;
+}
+.dice {
+  display: flex;
+  flex-direction: column;
+}
+.die {
+  composes: notBtn;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.held {
+  background-color: #e8e8e8;
+  border: 3px solid #000;
+}
+.die:not(:last-child) {
+  margin-bottom: 5px;
+}
+.rollBtn {
+  composes: notBtn;
+  padding-left: 10px;
+  padding-right: 10px;
+}
