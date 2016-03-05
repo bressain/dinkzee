@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+.label {
+  composes: label from '../score/index.css';
+}
+.value {
+  composes: cell from '../score/index.css';
+  height: auto;
+  width: 38px;
+  text-align: center;
+}
