@@ -1,3 +1,10 @@
 .container {
+  display: flex;
   width: 600px;
+}
+.upperSection {
+  margin-right: 10px;
+}
+.dice {
+  margin-top: 17px;
 }
