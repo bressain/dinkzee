@@ -11,7 +11,7 @@
 }
 .label {
   composes: cell;
-  width: 100px;
+  width: 120px;
 }
 .value {
   composes: cell;
